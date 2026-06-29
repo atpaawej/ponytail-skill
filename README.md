@@ -13,7 +13,7 @@ No credit taken — all the credit goes to DietrichGebert for the original ladde
 ## Install
 
 ```bash
-npx skills add atpaawej/ponytail-skill
+npx skills add pathanaawej0-dot/ponytail-skill
 ```
 
 Then type `ponytail` (or `/ponytail`, `@ponytail`) in your agent whenever you're about to code and want the lazy ladder active.
