@@ -1,6 +1,14 @@
-# Ponytail
+# Ponytail · user-invoked
 
-Makes your AI agent think like a lazy senior dev. The best code is the code you never wrote.
+A user-invokable port of [DietrichGebert's ponytail](https://github.com/DietrichGebert/ponytail) — the lazy senior dev mode for AI agents.
+
+## Why this exists
+
+The original ponytail activates automatically on every coding task. That works great when you're writing code, but it also fires when you're planning, debugging, reviewing docs, or doing anything else — and the constant "write less code" nudges get in the way.
+
+This version flips that: **the model never auto-invokes it**. You call it when you want it. Type `ponytail` in your agent when you're about to write code and need the lazy discipline. The rest of the time it stays out of your way.
+
+No credit taken — all the credit goes to DietrichGebert for the original ladder, rules, and design. This is just a repackage with a different invocation model.
 
 ## Install
 
@@ -8,7 +16,7 @@ Makes your AI agent think like a lazy senior dev. The best code is the code you 
 npx skills add atpaawej/ponytail-skill
 ```
 
-Then type `ponytail` (or `/ponytail`, `@ponytail`) in your agent to activate lazy mode.
+Then type `ponytail` (or `/ponytail`, `@ponytail`) in your agent whenever you're about to code and want the lazy ladder active.
 
 ## What it does
 
